@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-20T07:08:17 IST" name="Suite" finished-at="2024-10-20T07:09:28 IST" duration-ms="70739">
+    <groups>
+    </groups>
+    <test started-at="2024-10-20T07:08:17 IST" name="UI Test" finished-at="2024-10-20T07:08:37 IST" duration-ms="19971">
+      <class name="testCases.UI_test">
+        <test-method signature="flipkartImgView()[pri:1, instance:testCases.UI_test@8c3b9d]" started-at="2024-10-20T07:08:17 IST" name="flipkartImgView" finished-at="2024-10-20T07:08:18 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartImgView -->
+        <test-method signature="addToCartClick()[pri:3, instance:testCases.UI_test@8c3b9d]" started-at="2024-10-20T07:08:18 IST" name="addToCartClick" finished-at="2024-10-20T07:08:18 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartClick -->
+        <test-method signature="sellerStoriesClick()[pri:4, instance:testCases.UI_test@8c3b9d]" started-at="2024-10-20T07:08:18 IST" name="sellerStoriesClick" finished-at="2024-10-20T07:08:30 IST" duration-ms="12353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellerStoriesClick -->
+        <test-method signature="loginBtnClickable()[pri:5, instance:testCases.UI_test@8c3b9d]" started-at="2024-10-20T07:08:30 IST" name="loginBtnClickable" finished-at="2024-10-20T07:08:37 IST" duration-ms="6627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBtnClickable -->
+      </class> <!-- testCases.UI_test -->
+    </test> <!-- UI Test -->
+    <test started-at="2024-10-20T07:08:37 IST" name="AddItemToCart" finished-at="2024-10-20T07:08:38 IST" duration-ms="1218">
+      <class name="testCases.AddItemToCart">
+        <test-method signature="addItemToCart()[pri:0, instance:testCases.AddItemToCart@37f1104d]" started-at="2024-10-20T07:08:37 IST" name="addItemToCart" finished-at="2024-10-20T07:08:38 IST" duration-ms="1199" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input class="Pke_EE" type="text" title="Search for Products, Brands and More" name="q" autocomplete="off" placeholder="Search for Products, Brands and More" value=""> is not clickable at point (622, 33). Other element would receive the click: <div class="fbDBuK _3CYmv5" tabindex="-1">...</div>
+  (Session info: chrome=130.0.6723.59)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83b3e5e26b8dd6a8a60413cd9fa1c24a, clickElement {id=f.DACC4A5A529B6D4C7229C237A44C822C.d.5E517899AE0F1918EC946168F9FB225B.e.520}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53688/devtoo..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (83b3e5e26b8dd6a8a60413cd9fa1c24a)] -> xpath: //input[@placeholder='Search for Products, Brands and More']]
+Session ID: 83b3e5e26b8dd6a8a60413cd9fa1c24a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input class="Pke_EE" type="text" title="Search for Products, Brands and More" name="q" autocomplete="off" placeholder="Search for Products, Brands and More" value=""> is not clickable at point (622, 33). Other element would receive the click: <div class="fbDBuK _3CYmv5" tabindex="-1">...</div>
+  (Session info: chrome=130.0.6723.59)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83b3e5e26b8dd6a8a60413cd9fa1c24a, clickElement {id=f.DACC4A5A529B6D4C7229C237A44C822C.d.5E517899AE0F1918EC946168F9FB225B.e.520}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.59, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53688}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53688/devtoo..., se:cdpVersion: 130.0.6723.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (83b3e5e26b8dd6a8a60413cd9fa1c24a)] -> xpath: //input[@placeholder='Search for Products, Brands and More']]
+Session ID: 83b3e5e26b8dd6a8a60413cd9fa1c24a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at testCases.AddItemToCart.addItemToCart(AddItemToCart.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCart -->
+      </class> <!-- testCases.AddItemToCart -->
+    </test> <!-- AddItemToCart -->
+    <test started-at="2024-10-20T07:08:39 IST" name="Form Filling" finished-at="2024-10-20T07:09:08 IST" duration-ms="29302">
+      <class name="testCases.Form_Validation_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Form_Validation_Test@5ab9e72c]" started-at="2024-10-20T07:08:39 IST" name="setUp" finished-at="2024-10-20T07:08:41 IST" duration-ms="2328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForm()[pri:0, instance:testCases.Form_Validation_Test@5ab9e72c]" started-at="2024-10-20T07:08:41 IST" name="testForm" finished-at="2024-10-20T07:09:07 IST" duration-ms="26283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Form_Validation_Test@5ab9e72c]" started-at="2024-10-20T07:09:07 IST" name="tearDown" finished-at="2024-10-20T07:09:08 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Form_Validation_Test -->
+    </test> <!-- Form Filling -->
+    <test started-at="2024-10-20T07:09:08 IST" name="Login Test" finished-at="2024-10-20T07:09:28 IST" duration-ms="19952">
+      <class name="testCases.Login_Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.Login_Test@36b4fe2a]" started-at="2024-10-20T07:09:08 IST" name="setUp" finished-at="2024-10-20T07:09:21 IST" duration-ms="13540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.Login_Test@36b4fe2a]" started-at="2024-10-20T07:09:21 IST" name="testLogin" finished-at="2024-10-20T07:09:27 IST" duration-ms="5892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Login_Test@36b4fe2a]" started-at="2024-10-20T07:09:27 IST" name="tearDown" finished-at="2024-10-20T07:09:28 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Login_Test -->
+      <class name="testCases.AddItemToCart">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.AddItemToCart@37f1104d]" started-at="2024-10-20T07:08:06 IST" name="setup" finished-at="2024-10-20T07:08:17 IST" duration-ms="10598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testCases.AddItemToCart -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Suite -->
+</testng-results>

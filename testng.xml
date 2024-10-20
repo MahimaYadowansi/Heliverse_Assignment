@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="UI Test">
+		<classes>
+			<class name="baseTest.BaseTest" />
+			<class name="testCases.UI_test">
+				<methods>
+					<include name="UI_Test" />
+					<include name="flipkartImgView" />
+					<include name="loginBtnClickable" />
+					<include name="addToCartClick" />
+					<include name="sellerStoriesClick" />
+					<include name="HelpDropDownClick" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="AddItemToCart">
+		<classes>
+
+			<class name="testCases.AddItemToCart" />
+			<class name="baseTest.BaseTest" />
+		</classes>
+
+	</test> <!--
+	Test -->
+
+
+	<test name="Form Filling">
+		<classes>
+			<class name="testCases.Form_Validation_Test" />
+		</classes>
+	</test>
+	
+	<test name="Login Test">
+		<classes>
+			<class name="testCases.Login_Test" />
+		</classes>
+	</test>
+
+</suite> <!--
+Suite -->
