@@ -8,7 +8,8 @@ This project demonstrates the automation of different functionalities of an e-co
 
 - **Adding an Item to the Cart**: Automates the process of searching for an item, selecting a product, and adding it to the shopping cart.
 - **UI Testing**: Verifies that the graphical elements (buttons, text fields, and other UI components) are correctly rendered and interactable.
-- **Form Validation Testing**: Automates the validation of form fields, ensuring input validation (like email, password strength, etc.) works as expected.
+- **Form Validation Testing**: Automates the validation of form fields, ensuring input validation (like first name, last name,email,phone number etc.) works as expected.
+- **Login Test**:Automates the login process using valid credentials and verifies successful login.
 
 ## Key Features
 
