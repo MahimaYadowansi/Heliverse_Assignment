@@ -1,6 +1,6 @@
 # Automation Testing Suite
 
-This repository contains an automation testing project built with **Selenium WebDriver** and **Java**, designed to test various functionalities of an e-commerce platform. The suite includes test cases that cover adding items to the cart, UI testing, and form validation. The tests are executed using **TestNG**, with reports generated in the `test-output` folder.
+This repository contains an automation testing project built with **Selenium WebDriver** and **Java**, designed to test various functionalities of an e-commerce platform. The suite includes test cases that cover adding items to the cart, UI testing,login testing and form validation. The tests are executed using **TestNG**, with reports generated in the `test-output` folder.
 
 ## Project Overview
 
